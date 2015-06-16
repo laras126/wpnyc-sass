@@ -1,9 +1,16 @@
 
 @import "compass";
 
-// Import Normalize
+// Import things!
+// Underscored filed are ignored by compiler.
 
-// Make a color and semantic link variable
+// @import "utility/variables";
+// @import "utility/mixins";
+
+// @import "normalize";
+// @import "typography";
+
+
 
 //-- Base styles
 
@@ -11,9 +18,9 @@
 	max-width: 40em;
 	margin: 0 auto;
 	padding: 0 1rem;
-
-	// Nest a Media Query
-
 }
 
-// Go to scss-next/ !
+// Make the leading sentence uppercase
+.lead {
+
+}

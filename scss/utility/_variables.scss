@@ -1,0 +1,44 @@
+
+// ---
+// Colors
+// ---
+
+$teal: 				#45B29D;
+
+
+// Semantic names
+$link-color: 		$teal;
+$link-hover: 		darken($link-color, 20%);
+$link-active: 		darken($link-color, 60%);
+
+
+// ---
+// Scale
+// ---
+
+$base:  			1.3rem;
+$sml:  				$base*0.8;
+
+$h1:  				$base*2.6;
+$h2:  				$base*2.2;
+$h3:  				$base*1.8;
+$h4:  				$base*1.4;
+$h5:  				$base*1.2;
+$h6:  				$sml;
+
+
+// ---
+// Typography
+// ---
+
+$sans-serif: 		'Helvetica', sans-serif;
+$serif:             'Georgia', serif;
+
+
+// Semantic names
+
+$line-height-base: 	1.5;
+
+$heading-font: 		$sans-serif;
+$body-font: 		$serif;
+
